@@ -8,10 +8,6 @@
     Runs with Python 3.6.0, Selenium 3.5.0
     and geckodriver v0.18.0 for x86_64 PCs
 
-    v1.1: Added bot_type function for simplifying input
-          Added functionality for selling resources
-    v1.2: Added functionality for adventuring
-
     Author: Sam Messick
 """
 from selenium import webdriver
