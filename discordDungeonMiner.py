@@ -37,7 +37,7 @@ def collect_items():
     bot_type(input, '#!mine', 0)
     bot_type(input, '#!fish', 0)
 def heal_player():
-    bot_type(input, '#!buy Health Potion 50', 0)
+    bot_type(input, '#!buy Health Potion 50', 0) #Update '50' to preferred number of potions
 def sell():
     bot_type(input, '#!sell Log 30', 11)
     bot_type(input, '#!sell Iron Ore 18', 11)
@@ -47,6 +47,7 @@ def sell():
     bot_type(input, '#!sell Cherry 12', 11)
     bot_type(input, '#!sell Carrot 12', 11)
     bot_type(input, '#!sell Egg 12', 0)
+#Adventure, healing every 5th adventure
 def adventure(iterations):
     for i in range(iterations):
         if i%5 == 0:
