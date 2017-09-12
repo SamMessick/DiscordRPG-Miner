@@ -52,7 +52,7 @@ def adventure(iterations):
         if i%5 == 0:
             bot_type(input, '#!heal auto', 0)
             bot_type(input, '#!pheal auto', 0)
-        bot_type(input, '#!adv 2', 12)
+        bot_type(input, '#!adv 2', 12.5)
 
 #Begin mining resources and adventuring; sell every 5th iteration
 input = browser.find_element_by_class_name('textArea-20yzAH')
