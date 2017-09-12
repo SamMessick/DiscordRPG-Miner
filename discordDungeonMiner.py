@@ -51,7 +51,7 @@ def adventure(iterations):
     for i in range(iterations):
         if i%5 == 0:
             bot_type(input, '#!heal auto', 0)
-            bot_type(input, '#!pheal auto', .1)
+            bot_type(input, '#!pheal auto', 0)
         bot_type(input, '#!adv 2', 12)
 
 #Begin mining resources and adventuring; sell every 5th iteration
