@@ -20,7 +20,7 @@ browser.get('https:discordapp.com/login')
 time.sleep(1)
 username = browser.find_element_by_id('register-email')
 password = browser.find_element_by_id('register-password')
-username.send_keys('EMAIL')                                            #Enter email and password between '' marks
+username.send_keys('EMAIL') #Enter email and password between '' marks
 password.send_keys('PASSWORD')                   
 password.send_keys(Keys.ENTER)
 time.sleep(1)
